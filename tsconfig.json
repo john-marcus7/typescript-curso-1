@@ -4,7 +4,10 @@
         "outDir": "./dist/js",
         "noEmitOnError": true,
         "moduleResolution": "node",
-        "noImplicitAny": true
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictNullChecks": true,
+        "experimentalDecorators": true
     },
     "include": ["app/**/*"]
 }
